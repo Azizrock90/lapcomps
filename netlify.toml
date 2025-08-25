@@ -1,0 +1,12 @@
+# Netlify configuration file
+# Docs: https://docs.netlify.com/configure-builds/file-based-configuration/
+[build]
+  publish = "public"
+  # If you use a build tool (like Vite/React), set a build command:
+  # command = "npm run build"
+
+# If you build a Single Page App (React/Vue/etc.) uncomment this to fix client-side routing:
+# [[redirects]]
+#   from = "/*"
+#   to = "/index.html"
+#   status = 200
